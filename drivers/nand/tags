@@ -1,0 +1,212 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CDSNControl	diskonchip.c	/^	u_char CDSNControl;$/;"	m	struct:doc_priv	file:
+CDSN_CTRL_FR_B_MASK	diskonchip.c	256;"	d	file:
+CFG_NAND_BASE_LIST	nand.c	31;"	d	file:
+COBJS	Makefile	/^COBJS 	:= nand.o nand_base.o nand_ids.o nand_ecc.o nand_bbt.o nand_util.o s3c2440_nand.o$/;"	m
+CONFIG_MTD_DISKONCHIP_PROBE_ADDRESS	diskonchip.c	43;"	d	file:
+ChipID	diskonchip.c	/^	u_char ChipID;$/;"	m	struct:doc_priv	file:
+DoC_Delay	diskonchip.c	/^static void DoC_Delay(struct doc_priv *doc, unsigned short cycles)$/;"	f	file:
+DoC_WaitReady	diskonchip.c	/^static inline int DoC_WaitReady(struct doc_priv *doc)$/;"	f	file:
+DoC_is_2000	diskonchip.c	104;"	d	file:
+DoC_is_Millennium	diskonchip.c	103;"	d	file:
+DoC_is_MillenniumPlus	diskonchip.c	102;"	d	file:
+FCR	diskonchip.c	142;"	d	file:
+INFTL_BBT_RESERVED_BLOCKS	diskonchip.c	100;"	d	file:
+LIB	Makefile	/^LIB 	:= $(obj)libnand.a$/;"	m
+MAX_MEDIAHEADER_SCAN	diskonchip.c	91;"	d	file:
+MAX_OOB_SIZE	nand_util.c	246;"	d	file:
+MAX_PAGE_SIZE	nand_util.c	245;"	d	file:
+NAND_CMD_LOCK	nand_util.c	690;"	d	file:
+NAND_CMD_LOCK_STATUS	nand_util.c	694;"	d	file:
+NAND_CMD_LOCK_TIGHT	nand_util.c	691;"	d	file:
+NAND_CMD_UNLOCK1	nand_util.c	692;"	d	file:
+NAND_CMD_UNLOCK2	nand_util.c	693;"	d	file:
+NB_DATA	diskonchip.c	138;"	d	file:
+NN	diskonchip.c	144;"	d	file:
+NOTALIGNED	nand_base.c	1582;"	d	file:
+NROOTS	diskonchip.c	140;"	d	file:
+OBJS	Makefile	/^OBJS 	:= $(addprefix $(obj),$(COBJS))$/;"	m
+S3C2410_NFCONF_nFCE	s3c2440_nand.c	27;"	d	file:
+S3C2410_NFSTAT_READY	s3c2440_nand.c	26;"	d	file:
+S3C2440_NFCONF_nFCE	s3c2440_nand.c	30;"	d	file:
+S3C2440_NFSTAT_READY	s3c2440_nand.c	29;"	d	file:
+SECTOR_SIZE	diskonchip.c	136;"	d	file:
+SRCS	Makefile	/^SRCS 	:= $(COBJS:.o=.c)$/;"	m
+_DoC_WaitReady	diskonchip.c	/^static int _DoC_WaitReady(struct doc_priv *doc)$/;"	f	file:
+agand_flashbased	nand_bbt.c	/^static struct nand_bbt_descr agand_flashbased = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+autoplace_oobinfo	nand_util.c	/^static struct nand_oobinfo autoplace_oobinfo = {$/;"	v	typeref:struct:nand_oobinfo	file:
+base_address	nand.c	/^static ulong base_address[CFG_MAX_NAND_DEVICE] = CFG_NAND_BASE_LIST;$/;"	v	file:
+bbt_main_descr	nand_bbt.c	/^static struct nand_bbt_descr bbt_main_descr = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+bbt_mirror_descr	nand_bbt.c	/^static struct nand_bbt_descr bbt_mirror_descr = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+bbt_pattern	nand_bbt.c	/^static uint8_t bbt_pattern[] = {'B', 'b', 't', '0' };$/;"	v	file:
+board_nand_init	s3c2440_nand.c	/^int board_nand_init(struct nand_chip *chip)$/;"	f
+check_create	nand_bbt.c	/^static int check_create (struct mtd_info *mtd, uint8_t *buf, struct nand_bbt_descr *bd)$/;"	f	file:
+check_pattern	nand_bbt.c	/^static int check_pattern (uint8_t *buf, int len, int paglen, struct nand_bbt_descr *td)$/;"	f	file:
+chips_per_floor	diskonchip.c	/^	int chips_per_floor; \/* The number of chips detected on each floor *\/$/;"	m	struct:doc_priv	file:
+cleanup_nanddoc	diskonchip.c	/^module_exit(cleanup_nanddoc);$/;"	v
+cleanup_nanddoc	diskonchip.c	/^static void __exit cleanup_nanddoc(void)$/;"	f	file:
+cpu_to_je16	nand_util.c	48;"	d	file:
+cpu_to_je32	nand_util.c	49;"	d	file:
+create_bbt	nand_bbt.c	/^static void create_bbt (struct mtd_info *mtd, uint8_t *buf, struct nand_bbt_descr *bd, int chip)$/;"	f	file:
+curchip	diskonchip.c	/^	int curchip;$/;"	m	struct:doc_priv	file:
+curfloor	diskonchip.c	/^	int curfloor;$/;"	m	struct:doc_priv	file:
+data_buf	nand_util.c	/^static unsigned char data_buf[MAX_PAGE_SIZE];$/;"	v	file:
+debug	diskonchip.c	/^static int debug=0;$/;"	v	file:
+default_nand_name	nand.c	/^static const char default_nand_name[] = "nand";$/;"	v	file:
+doc2000_count_chips	diskonchip.c	/^static void __init doc2000_count_chips(struct mtd_info *mtd)$/;"	f	file:
+doc2000_init	diskonchip.c	/^static inline int __init doc2000_init(struct mtd_info *mtd)$/;"	f	file:
+doc2000_read_byte	diskonchip.c	/^static u_char doc2000_read_byte(struct mtd_info *mtd)$/;"	f	file:
+doc2000_readbuf	diskonchip.c	/^static void doc2000_readbuf(struct mtd_info *mtd,$/;"	f	file:
+doc2000_readbuf_dword	diskonchip.c	/^static void doc2000_readbuf_dword(struct mtd_info *mtd,$/;"	f	file:
+doc2000_verifybuf	diskonchip.c	/^static int doc2000_verifybuf(struct mtd_info *mtd,$/;"	f	file:
+doc2000_write_byte	diskonchip.c	/^static void doc2000_write_byte(struct mtd_info *mtd, u_char datum)$/;"	f	file:
+doc2000_writebuf	diskonchip.c	/^static void doc2000_writebuf(struct mtd_info *mtd,$/;"	f	file:
+doc2001_init	diskonchip.c	/^static inline int __init doc2001_init(struct mtd_info *mtd)$/;"	f	file:
+doc2001_read_byte	diskonchip.c	/^static u_char doc2001_read_byte(struct mtd_info *mtd)$/;"	f	file:
+doc2001_readbuf	diskonchip.c	/^static void doc2001_readbuf(struct mtd_info *mtd,$/;"	f	file:
+doc2001_verifybuf	diskonchip.c	/^static int doc2001_verifybuf(struct mtd_info *mtd,$/;"	f	file:
+doc2001_write_byte	diskonchip.c	/^static void doc2001_write_byte(struct mtd_info *mtd, u_char datum)$/;"	f	file:
+doc2001_writebuf	diskonchip.c	/^static void doc2001_writebuf(struct mtd_info *mtd,$/;"	f	file:
+doc2001plus_command	diskonchip.c	/^static void doc2001plus_command (struct mtd_info *mtd, unsigned command, int column, int page_addr)$/;"	f	file:
+doc2001plus_enable_hwecc	diskonchip.c	/^static void doc2001plus_enable_hwecc(struct mtd_info *mtd, int mode)$/;"	f	file:
+doc2001plus_init	diskonchip.c	/^static inline int __init doc2001plus_init(struct mtd_info *mtd)$/;"	f	file:
+doc2001plus_read_byte	diskonchip.c	/^static u_char doc2001plus_read_byte(struct mtd_info *mtd)$/;"	f	file:
+doc2001plus_readbuf	diskonchip.c	/^static void doc2001plus_readbuf(struct mtd_info *mtd,$/;"	f	file:
+doc2001plus_select_chip	diskonchip.c	/^static void doc2001plus_select_chip(struct mtd_info *mtd, int chip)$/;"	f	file:
+doc2001plus_verifybuf	diskonchip.c	/^static int doc2001plus_verifybuf(struct mtd_info *mtd,$/;"	f	file:
+doc2001plus_writebuf	diskonchip.c	/^static void doc2001plus_writebuf(struct mtd_info *mtd,$/;"	f	file:
+doc200x_block_bad	diskonchip.c	/^static int doc200x_block_bad(struct mtd_info *mtd, loff_t ofs, int getchip)$/;"	f	file:
+doc200x_calculate_ecc	diskonchip.c	/^static int doc200x_calculate_ecc(struct mtd_info *mtd, const u_char *dat,$/;"	f	file:
+doc200x_correct_data	diskonchip.c	/^static int doc200x_correct_data(struct mtd_info *mtd, u_char *dat, u_char *read_ecc, u_char *calc_ecc)$/;"	f	file:
+doc200x_dev_ready	diskonchip.c	/^static int doc200x_dev_ready(struct mtd_info *mtd)$/;"	f	file:
+doc200x_enable_hwecc	diskonchip.c	/^static void doc200x_enable_hwecc(struct mtd_info *mtd, int mode)$/;"	f	file:
+doc200x_hwcontrol	diskonchip.c	/^static void doc200x_hwcontrol(struct mtd_info *mtd, int cmd)$/;"	f	file:
+doc200x_ident_chip	diskonchip.c	/^static uint16_t __init doc200x_ident_chip(struct mtd_info *mtd, int nr)$/;"	f	file:
+doc200x_oobinfo	diskonchip.c	/^static struct nand_oobinfo doc200x_oobinfo = {$/;"	v	typeref:struct:nand_oobinfo	file:
+doc200x_select_chip	diskonchip.c	/^static void doc200x_select_chip(struct mtd_info *mtd, int chip)$/;"	f	file:
+doc200x_wait	diskonchip.c	/^static int doc200x_wait(struct mtd_info *mtd, struct nand_chip *this, int state)$/;"	f	file:
+doc_config_location	diskonchip.c	/^static unsigned long doc_config_location = CONFIG_MTD_DISKONCHIP_PROBE_ADDRESS;$/;"	v	file:
+doc_ecc_decode	diskonchip.c	/^static int doc_ecc_decode (struct rs_control *rs, uint8_t *data, uint8_t *ecc)$/;"	f	file:
+doc_locations	diskonchip.c	/^static unsigned long __initdata doc_locations[] = {$/;"	v	file:
+doc_priv	diskonchip.c	/^struct doc_priv {$/;"	s	file:
+doc_probe	diskonchip.c	/^static inline int __init doc_probe(unsigned long physadr)$/;"	f	file:
+doclist	diskonchip.c	/^static struct mtd_info *doclist = NULL;$/;"	v	typeref:struct:mtd_info	file:
+empty_read_syndrome	diskonchip.c	/^static u_char empty_read_syndrome[6] = { 0x26, 0xff, 0x6d, 0x47, 0x73, 0x7a };$/;"	v	file:
+empty_write_ecc	diskonchip.c	/^static u_char empty_write_ecc[6] = { 0x4b, 0x00, 0xe2, 0x0e, 0x93, 0xf7 };$/;"	v	file:
+erase_info_t	nand_util.c	/^typedef struct erase_info erase_info_t;$/;"	t	typeref:struct:erase_info	file:
+ffchars	nand_base.c	/^static u_char ffchars[] = {$/;"	v	file:
+find_media_headers	diskonchip.c	/^static int __init find_media_headers(struct mtd_info *mtd, u_char *buf,$/;"	f	file:
+inftl_bbt_write	diskonchip.c	/^static int inftl_bbt_write=0;$/;"	v	file:
+inftl_bbt_write	diskonchip.c	/^static int inftl_bbt_write=1;$/;"	v	file:
+inftl_partscan	diskonchip.c	/^static inline int __init inftl_partscan(struct mtd_info *mtd,$/;"	f	file:
+inftl_scan_bbt	diskonchip.c	/^static int __init inftl_scan_bbt(struct mtd_info *mtd)$/;"	f	file:
+init_nanddoc	diskonchip.c	/^module_init(init_nanddoc);$/;"	v
+init_nanddoc	diskonchip.c	/^static int __init init_nanddoc(void)$/;"	f	file:
+jffs2_oobinfo	nand_util.c	/^static struct nand_oobinfo jffs2_oobinfo = {$/;"	v	typeref:struct:nand_oobinfo	file:
+largepage_flashbased	nand_bbt.c	/^static struct nand_bbt_descr largepage_flashbased = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+largepage_memorybased	nand_bbt.c	/^static struct nand_bbt_descr largepage_memorybased = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+mark_bbt_region	nand_bbt.c	/^static void mark_bbt_region (struct mtd_info *mtd, struct nand_bbt_descr *td)$/;"	f	file:
+mh0_page	diskonchip.c	/^	int mh0_page;$/;"	m	struct:doc_priv	file:
+mh1_page	diskonchip.c	/^	int mh1_page;$/;"	m	struct:doc_priv	file:
+mirror_pattern	nand_bbt.c	/^static uint8_t mirror_pattern[] = {'1', 't', 'b', 'B' };$/;"	v	file:
+mtd_info_t	nand_util.c	/^typedef struct mtd_info	  mtd_info_t;$/;"	t	typeref:struct:mtd_info	file:
+multi_erase_cmd	nand_base.c	/^static void multi_erase_cmd (struct mtd_info *mtd, int page)$/;"	f	file:
+nand_block_bad	nand_base.c	/^static int nand_block_bad(struct mtd_info *mtd, loff_t ofs, int getchip)$/;"	f	file:
+nand_block_bad_scrub	nand_util.c	/^static int nand_block_bad_scrub(struct mtd_info *mtd, loff_t ofs, int getchip)$/;"	f	file:
+nand_block_checkbad	nand_base.c	/^static int nand_block_checkbad (struct mtd_info *mtd, loff_t ofs, int getchip, int allowbbt)$/;"	f	file:
+nand_block_isbad	nand_base.c	/^static int nand_block_isbad (struct mtd_info *mtd, loff_t ofs)$/;"	f	file:
+nand_block_markbad	nand_base.c	/^static int nand_block_markbad (struct mtd_info *mtd, loff_t ofs)$/;"	f	file:
+nand_calculate_ecc	nand_ecc.c	/^int nand_calculate_ecc(struct mtd_info *mtd, const u_char *dat, u_char *ecc_code)$/;"	f
+nand_check_wp	nand_base.c	/^static int nand_check_wp (struct mtd_info *mtd)$/;"	f	file:
+nand_chip	nand.c	/^static struct nand_chip nand_chip[CFG_MAX_NAND_DEVICE];$/;"	v	typeref:struct:nand_chip	file:
+nand_command	nand_base.c	/^static void nand_command (struct mtd_info *mtd, unsigned command, int column, int page_addr)$/;"	f	file:
+nand_command_lp	nand_base.c	/^static void nand_command_lp (struct mtd_info *mtd, unsigned command, int column, int page_addr)$/;"	f	file:
+nand_correct_data	nand_ecc.c	/^int nand_correct_data(struct mtd_info *mtd, u_char *dat, u_char *read_ecc, u_char *calc_ecc)$/;"	f
+nand_curr_device	nand.c	/^int nand_curr_device = -1;$/;"	v
+nand_default_bbt	nand_bbt.c	/^int nand_default_bbt (struct mtd_info *mtd)$/;"	f
+nand_default_block_markbad	nand_base.c	/^static int nand_default_block_markbad(struct mtd_info *mtd, loff_t ofs)$/;"	f	file:
+nand_ecc_precalc_table	nand_ecc.c	/^static const u_char nand_ecc_precalc_table[] = {$/;"	v	file:
+nand_erase	nand_base.c	/^static int nand_erase (struct mtd_info *mtd, struct erase_info *instr)$/;"	f	file:
+nand_erase_nand	nand_base.c	/^int nand_erase_nand (struct mtd_info *mtd, struct erase_info *instr, int allowbbt)$/;"	f
+nand_erase_opts	nand_util.c	/^int nand_erase_opts(nand_info_t *meminfo, const nand_erase_options_t *opts)$/;"	f
+nand_flash_ids	nand_ids.c	/^struct nand_flash_dev nand_flash_ids[] = {$/;"	v	typeref:struct:nand_flash_dev
+nand_get_device	nand_base.c	/^static void nand_get_device (struct nand_chip *this, struct mtd_info *mtd, int new_state) {}$/;"	f	file:
+nand_get_lock_status	nand_util.c	/^int nand_get_lock_status(nand_info_t *meminfo, ulong offset)$/;"	f
+nand_info	nand.c	/^nand_info_t nand_info[CFG_MAX_NAND_DEVICE];$/;"	v
+nand_init	nand.c	/^void nand_init(void)$/;"	f
+nand_init_chip	nand.c	/^static void nand_init_chip(struct mtd_info *mtd, struct nand_chip *nand,$/;"	f	file:
+nand_isbad_bbt	nand_bbt.c	/^int nand_isbad_bbt (struct mtd_info *mtd, loff_t offs, int allowbbt)$/;"	f
+nand_lock	nand_util.c	/^int nand_lock(nand_info_t *meminfo, int tight)$/;"	f
+nand_manuf_ids	nand_ids.c	/^struct nand_manufacturers nand_manuf_ids[] = {$/;"	v	typeref:struct:nand_manufacturers
+nand_memory_bbt	nand_bbt.c	/^static int nand_memory_bbt (struct mtd_info *mtd, struct nand_bbt_descr *bd)$/;"	f	file:
+nand_oob_16	nand_base.c	/^static struct nand_oobinfo nand_oob_16 = {$/;"	v	typeref:struct:nand_oobinfo	file:
+nand_oob_64	nand_base.c	/^static struct nand_oobinfo nand_oob_64 = {$/;"	v	typeref:struct:nand_oobinfo	file:
+nand_oob_8	nand_base.c	/^static struct nand_oobinfo nand_oob_8 = {$/;"	v	typeref:struct:nand_oobinfo	file:
+nand_prepare_oobbuf	nand_base.c	/^static u_char * nand_prepare_oobbuf (struct mtd_info *mtd, u_char *fsbuf, struct nand_oobinfo *oobsel,$/;"	f	file:
+nand_read	nand_base.c	/^static int nand_read (struct mtd_info *mtd, loff_t from, size_t len, size_t * retlen, u_char * buf)$/;"	f	file:
+nand_read_buf	nand_base.c	/^static void nand_read_buf(struct mtd_info *mtd, u_char *buf, int len)$/;"	f	file:
+nand_read_buf16	nand_base.c	/^static void nand_read_buf16(struct mtd_info *mtd, u_char *buf, int len)$/;"	f	file:
+nand_read_byte	nand_base.c	/^static u_char nand_read_byte(struct mtd_info *mtd)$/;"	f	file:
+nand_read_byte16	nand_base.c	/^static u_char nand_read_byte16(struct mtd_info *mtd)$/;"	f	file:
+nand_read_ecc	nand_base.c	/^static int nand_read_ecc (struct mtd_info *mtd, loff_t from, size_t len,$/;"	f	file:
+nand_read_oob	nand_base.c	/^static int nand_read_oob (struct mtd_info *mtd, loff_t from, size_t len, size_t * retlen, u_char * buf)$/;"	f	file:
+nand_read_opts	nand_util.c	/^int nand_read_opts(nand_info_t *meminfo, const nand_read_options_t *opts)$/;"	f
+nand_read_raw	nand_base.c	/^int nand_read_raw (struct mtd_info *mtd, uint8_t *buf, loff_t from, size_t len, size_t ooblen)$/;"	f
+nand_read_word	nand_base.c	/^static u16 nand_read_word(struct mtd_info *mtd)$/;"	f	file:
+nand_release	nand_base.c	/^void nand_release (struct mtd_info *mtd)$/;"	f
+nand_release_device	nand_base.c	/^static void nand_release_device (struct mtd_info *mtd)$/;"	f	file:
+nand_scan	nand_base.c	/^int nand_scan (struct mtd_info *mtd, int maxchips)$/;"	f
+nand_scan_bbt	nand_bbt.c	/^int nand_scan_bbt (struct mtd_info *mtd, struct nand_bbt_descr *bd)$/;"	f
+nand_select_chip	nand_base.c	/^static void nand_select_chip(struct mtd_info *mtd, int chip)$/;"	f	file:
+nand_sync	nand_base.c	/^static void nand_sync (struct mtd_info *mtd)$/;"	f	file:
+nand_trans_result	nand_ecc.c	/^static void nand_trans_result(u_char reg2, u_char reg3,$/;"	f	file:
+nand_unlock	nand_util.c	/^int nand_unlock(nand_info_t *meminfo, ulong start, ulong length)$/;"	f
+nand_update_bbt	nand_bbt.c	/^int nand_update_bbt (struct mtd_info *mtd, loff_t offs)$/;"	f
+nand_verify_buf	nand_base.c	/^static int nand_verify_buf(struct mtd_info *mtd, const u_char *buf, int len)$/;"	f	file:
+nand_verify_buf16	nand_base.c	/^static int nand_verify_buf16(struct mtd_info *mtd, const u_char *buf, int len)$/;"	f	file:
+nand_verify_pages	nand_base.c	/^static int nand_verify_pages (struct mtd_info *mtd, struct nand_chip *this, int page, int numpages,$/;"	f	file:
+nand_verify_pages	nand_base.c	160;"	d	file:
+nand_wait	nand_base.c	/^static int nand_wait(struct mtd_info *mtd, struct nand_chip *this, int state)$/;"	f	file:
+nand_write	nand_base.c	/^static int nand_write (struct mtd_info *mtd, loff_t to, size_t len, size_t * retlen, const u_char * buf)$/;"	f	file:
+nand_write_buf	nand_base.c	/^static void nand_write_buf(struct mtd_info *mtd, const u_char *buf, int len)$/;"	f	file:
+nand_write_buf16	nand_base.c	/^static void nand_write_buf16(struct mtd_info *mtd, const u_char *buf, int len)$/;"	f	file:
+nand_write_byte	nand_base.c	/^static void nand_write_byte(struct mtd_info *mtd, u_char byte)$/;"	f	file:
+nand_write_byte16	nand_base.c	/^static void nand_write_byte16(struct mtd_info *mtd, u_char byte)$/;"	f	file:
+nand_write_ecc	nand_base.c	/^static int nand_write_ecc (struct mtd_info *mtd, loff_t to, size_t len,$/;"	f	file:
+nand_write_oob	nand_base.c	/^static int nand_write_oob (struct mtd_info *mtd, loff_t to, size_t len, size_t * retlen, const u_char * buf)$/;"	f	file:
+nand_write_opts	nand_util.c	/^int nand_write_opts(nand_info_t *meminfo, const nand_write_options_t *opts)$/;"	f
+nand_write_page	nand_base.c	/^static int nand_write_page (struct mtd_info *mtd, struct nand_chip *this, int page,$/;"	f	file:
+nand_write_word	nand_base.c	/^static void nand_write_word(struct mtd_info *mtd, u16 word)$/;"	f	file:
+nextdoc	diskonchip.c	/^	struct mtd_info *nextdoc;$/;"	m	struct:doc_priv	typeref:struct:doc_priv::mtd_info	file:
+nftl_partscan	diskonchip.c	/^static inline int __init nftl_partscan(struct mtd_info *mtd,$/;"	f	file:
+nftl_scan_bbt	diskonchip.c	/^static int __init nftl_scan_bbt(struct mtd_info *mtd)$/;"	f	file:
+no_autopart	diskonchip.c	/^static int no_autopart=0;$/;"	v	file:
+no_ecc_failures	diskonchip.c	/^static int no_ecc_failures=0;$/;"	v	file:
+none_oobinfo	nand_util.c	/^static struct nand_oobinfo none_oobinfo = {$/;"	v	typeref:struct:nand_oobinfo	file:
+oob_buf	nand_util.c	/^static unsigned char oob_buf[MAX_OOB_SIZE];$/;"	v	file:
+physadr	diskonchip.c	/^	unsigned long physadr;$/;"	m	struct:doc_priv	file:
+read_abs_bbt	nand_bbt.c	/^static int read_abs_bbt (struct mtd_info *mtd, uint8_t *buf, struct nand_bbt_descr *td, int chip)$/;"	f	file:
+read_abs_bbts	nand_bbt.c	/^static int read_abs_bbts (struct mtd_info *mtd, uint8_t *buf, struct nand_bbt_descr *td,$/;"	f	file:
+read_bbt	nand_bbt.c	/^static int read_bbt (struct mtd_info *mtd, uint8_t *buf, int page, int num,$/;"	f	file:
+release_nanddoc	diskonchip.c	/^static void release_nanddoc(void)$/;"	f	file:
+rs_decoder	diskonchip.c	/^static struct rs_control *rs_decoder;$/;"	v	typeref:struct:rs_control	file:
+s3c2410_nand_dev_ready	s3c2440_nand.c	/^static int s3c2410_nand_dev_ready(struct mtd_info *mtd)$/;"	f	file:
+s3c2410_nand_hwcontrol	s3c2440_nand.c	/^static void s3c2410_nand_hwcontrol(struct mtd_info *mtd, int cmd, unsigned int ctrl)$/;"	f	file:
+s3c2410_nand_select_chip	s3c2440_nand.c	/^static void s3c2410_nand_select_chip(struct mtd_info *mtd,int chip)$/;"	f	file:
+s3c24x0_nand_inithw	s3c2440_nand.c	/^static void s3c24x0_nand_inithw(void)$/;"	f	file:
+scan_agand_pattern	nand_bbt.c	/^static uint8_t scan_agand_pattern[] = { 0x1C, 0x71, 0xC7, 0x1C, 0x71, 0xC7 };$/;"	v	file:
+scan_ff_pattern	nand_bbt.c	/^static uint8_t scan_ff_pattern[] = { 0xff, 0xff };$/;"	v	file:
+search_bbt	nand_bbt.c	/^static int search_bbt (struct mtd_info *mtd, uint8_t *buf, struct nand_bbt_descr *td)$/;"	f	file:
+search_read_bbts	nand_bbt.c	/^static int search_read_bbts (struct mtd_info *mtd, uint8_t *buf,$/;"	f	file:
+single_erase_cmd	nand_base.c	/^static void single_erase_cmd (struct mtd_info *mtd, int page)$/;"	f	file:
+smallpage_flashbased	nand_bbt.c	/^static struct nand_bbt_descr smallpage_flashbased = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+smallpage_memorybased	nand_bbt.c	/^static struct nand_bbt_descr smallpage_memorybased = {$/;"	v	typeref:struct:nand_bbt_descr	file:
+try_dword	diskonchip.c	/^static int try_dword=1;$/;"	v	file:
+virtadr	diskonchip.c	/^	void __iomem *virtadr;$/;"	m	struct:doc_priv	file:
+write_bbt	nand_bbt.c	/^static int write_bbt (struct mtd_info *mtd, uint8_t *buf,$/;"	f	file:
+yaffs_oobinfo	nand_util.c	/^static struct nand_oobinfo yaffs_oobinfo = {$/;"	v	typeref:struct:nand_oobinfo	file:
